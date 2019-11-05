@@ -6,11 +6,11 @@ Docker para execução de comandos CiSIS
 
 ```docker build -t cisis_image . ```
 
-### Rodando o conteiner da image utilizando a opção **-t** (pseudo terminal):
+### Rodando o contêiner da image utilizando a opção **-t** (pseudo terminal):
 
 ```docker run -t -d --name cisis_container cisis_image```
 
-### Acessando o conteiner (sh):
+### Acessando o contêiner (sh):
 
 ```docker exec -ti  cisis_container sh```
 
@@ -18,6 +18,6 @@ Docker para execução de comandos CiSIS
 
 ```docker exec -ti cisis_container mx```
 
-## Rodando o conteiner da image configurando volume:
+## Rodando o contêiner da image configurando volume:
 
 ```docker run -t -d -v cisis:/cisis --name cisis_container cisis_image```
