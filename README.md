@@ -1,6 +1,6 @@
 # Docker-Cisis
 
-Docker para execução de comandos CiSIS
+Docker para execução de comandos CISIS
 
 ### Contruir a imagem:
 
